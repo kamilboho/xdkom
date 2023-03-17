@@ -27,7 +27,8 @@
           <img id="theme-icon" class="wrap-header" src="./img/moon.svg" alt="ERR" id="btn">
         </div>
       </li>
-      <li><a href="https://discord.gg/mUGZpc3ZEJ" class="wrap-header"><i class="fa-solid fa-headphones-simple"></i>Pomoc</a>
+      <li><a href="https://discord.gg/mUGZpc3ZEJ" class="wrap-header"><i
+            class="fa-solid fa-headphones-simple"></i>Pomoc</a>
       </li>
       <li><a href="" class="wrap-header"><i class="fa-solid fa-cart-shopping"></i>Koszyk</a></li>
     </ul>
@@ -45,7 +46,7 @@
         <li class="comp-stac"><a href="">Komputery stacjonarne</a></li>
         <li><a href="">Laptopy</a></li>
         <li><a href="">Monitory</a></li>
-        <li class="configurator-li"><a href="">Konfigurator</a></li>
+        <li class="configurator-li"><a href="">KUTAS WIELKI</a></li>
       </ul>
     </div>
   </div>
@@ -131,7 +132,7 @@
         </div>
       </div>
       <!-- PRODUCT IMG SLIDER END -->
-      
+
       <h3 class="card-text">Wyróżnione</h3>
       <!-- CARD -->
       <div class="container-card">
@@ -198,17 +199,17 @@
       var header = document.querySelector("header");
       header.classList.toggle("sticky", window.scrollY > 0);
 
-      if(document.getElementById("theme-icon").classList.contains("checker")){
+      if (document.getElementById("theme-icon").classList.contains("checker")) {
         document.getElementsByClassName("xKom")[0].src = "./img/logo_jasne.png";
-      }else{
-        if(window.scrollY > 0){
-        document.getElementsByClassName("xKom")[0].src = "./img/logo.png";
-      }else{
-        document.getElementsByClassName("xKom")[0].src = "./img/logo_jasne.png";
-      }
+      } else {
+        if (window.scrollY > 0) {
+          document.getElementsByClassName("xKom")[0].src = "./img/logo.png";
+        } else {
+          document.getElementsByClassName("xKom")[0].src = "./img/logo_jasne.png";
+        }
       }
 
-      
+
     })
   </script>
 
