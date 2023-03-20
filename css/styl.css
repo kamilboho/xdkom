@@ -67,7 +67,11 @@
 }
 .panelPC {
   display: flex;
+  height: 375px;
   margin-top: -10px;
+}
+div#splide01-track {
+  margin-top: 15%;
 }
 .product_mini_decription {
   display: flex;
@@ -100,13 +104,16 @@
 .sponsor {
   float: right;
   margin-right: 16%;
+  margin-top: 2%;
   border-radius: 18px;
   width: 40%;
   height: 100%;
-  /* margin-right: 30%; */
 }
-.sponsor-text {
-  color: #000;
+#sponsor-text {
+  width: 34%;
+  padding: 0px 12px 0 12px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 .sponsor-main {
   color: #000;
@@ -185,4 +192,3 @@
   cursor: pointer;
   z-index: 10000;
 }
-
